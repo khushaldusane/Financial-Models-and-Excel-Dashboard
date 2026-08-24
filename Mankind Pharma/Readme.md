@@ -3,6 +3,15 @@
 
 This project contains a financial model and analysis of Mankind Pharma.
 
+## Click below to view the presentation
+
+<p align="center">
+  <a href="Presentation.pdf">
+    <img src="1.jpg" width="900" alt="Bike Store Sales Analysis Presentation">
+  </a>
+</p>
+
+
 ## 📁 Contents
 Annual Report – Company annual reports
 Concalls – Earnings call information
