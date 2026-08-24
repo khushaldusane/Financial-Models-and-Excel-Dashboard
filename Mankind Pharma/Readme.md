@@ -8,7 +8,7 @@ This project contains a financial model and analysis of Mankind Pharma.
 <p align="center">
   <a href="Mankind Report.pdf">
     <img src="01.jpg" width="900" alt="Mankind Pharma Report"
-         style="box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+         style="box-shadow: 0 3px 8px rgba(0,0,0,0.18);">
   </a>
 </p>
 
