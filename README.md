@@ -1,121 +1,111 @@
+# Financial Models & Excel Dashboard
 
-# Production Performance Dashboard (Excel)
+A collection of financial modeling and Excel dashboard projects designed to analyze business performance, visualize financial data, and support data-driven decision-making.
 
-## Dashboard Overview
-This dashboard helps analyze the production performance of a manufacturing company. It provides insights into production output, cost efficiency, regional performance, and workforce distribution.
+## 📌 Overview
 
-By using this dashboard, management can quickly understand which regions, managers, or product types are performing better, and identify areas where production costs or efficiency need improvement.
+This repository contains Excel-based financial models, dashboards, and analysis tools built to demonstrate practical financial analysis and business intelligence skills.
 
-The dashboard also highlights production cost per unit, helping businesses monitor operational efficiency.
+The projects focus on transforming raw financial data into structured models, meaningful insights, and interactive dashboards.
 
+## 📊 Key Features
+Financial statement analysis
+Revenue and expense analysis
+Profitability analysis
+Financial forecasting
+Interactive Excel dashboards
+Data visualization
+Dynamic charts and reports
+Financial performance monitoring
+Excel formulas and financial calculations
 
-## DataSet Information 
-The dataset contains 120 production records with the following key fields:
-
-Production ID
-
-Production Date
-
-Region
-
-Manager
-
-Product Type
-
-Units Produced
-
-Total Cost
-
-Gender
-
-True Age
-
-Age Group
-
-Production Cost per Unit
-
-These fields allow analysis of production output, workforce distribution, and cost efficiency.
-
-## Steps Followed
-- Step 1: The dataset was imported into Microsoft Excel.
-
-- Step 2: Data cleaning and preparation were performed:
-
-  Checked for missing values
-
-  Verified data types
-
-  Created structured tables for analysis
-
-- Step 3: Calculated a new metric:
-
-  Production Cost Per Unit =
-  Total Cost ÷ Units Produced
-
-  This metric helps measure production efficiency.
-
-- Step 4: Pivot Tables were created to summarize data based on:
-
-  Region
-
-  Manager
-
-  Product Type
-
-  Age Group
-
-- Step 5: Multiple Pivot Charts were created to visualize insights   such as:
-
-  Units produced by region
-
-  Production performance by manager
-
-  Cost comparison across product types
-
-  Workforce age distribution
-
-- Step 6: Slicers were added to make the dashboard interactive:
-
-  Region
-
-  Product Type
-
-  Manager
-
-  Age Group
-
-  These allow users to filter the dashboard dynamically.
-
-- Step 7: All charts and visuals were arranged into a single interactive dashboard sheet for easy analysis.
-
-## Key Insights
-
-Some insights that can be obtained from the dashboard include:
-
-- Comparison of production output across regions
-
-- Identification of top performing managers
-
-- Analysis of which product types generate higher production
-
-- Understanding production cost efficiency
-
-- Workforce analysis based on age group and gender
-
-These insights help management optimize production planning and control costs.
-
-## Tools Used
-
+## 🛠️ Tools & Skills
 Microsoft Excel
+Financial Modeling
+Financial Analysis
+Data Visualization
+Dashboard Development
+Pivot Tables & Pivot Charts
+Excel Formulas & Functions
+Conditional Formatting
+KPI Analysis
+Business Performance Analysis
 
-Pivot Tables
+## 📈 Financial Models
 
-Pivot Charts
+The financial modeling projects focus on building structured models that can be used to understand historical performance and estimate future financial outcomes.
 
-Slicers
+Typical components include:
 
-Calculated Fields
+Revenue assumptions
+Cost and expense assumptions
+Profit & Loss statements
+Cash flow analysis
+Forecasting
+Scenario analysis
+Sensitivity analysis
+Key financial metrics
 
-## Dashboard Purpose
+## 📊 Excel Dashboards
 
-The main goal of this dashboard is to provide a simple visual overview of production performance, enabling faster decision-making and better operational monitoring.
+The dashboards convert financial and business data into easy-to-understand visual reports.
+
+Dashboard components may include:
+
+Revenue KPIs
+Profit & Loss metrics
+Growth analysis
+Expense breakdowns
+Monthly and yearly trends
+Variance analysis
+Interactive filters
+Charts and graphs
+
+## 🎯 Objectives
+
+The main objectives of this repository are to:
+
+Build practical financial models using Excel.
+Develop interactive and visually effective dashboards.
+Analyze financial performance and identify trends.
+Improve financial modeling and Excel skills.
+Demonstrate practical data analysis capabilities.
+Create portfolio-ready projects for finance and business analysis roles.
+💡 Key Insights
+
+These projects demonstrate how Excel can be used to:
+
+Turn raw data into actionable information.
+Identify revenue and profitability trends.
+Monitor business KPIs.
+Compare actual performance against targets.
+Support financial planning and forecasting.
+Present complex financial information in a simple visual format.
+
+## 🚀 How to Use
+Clone or download this repository.
+Open the required .xlsx file in Microsoft Excel.
+Review the assumptions and source data.
+Explore the financial model or dashboard.
+Use filters and interactive elements where available.
+Modify assumptions to perform your own analysis.
+📷 Dashboard Preview
+
+This repository is continuously updated as I develop my skills in:
+
+Financial Modeling
+Corporate Finance
+Excel
+Business Analysis
+Data Analytics
+Financial Forecasting
+Dashboard Design
+
+## 📌 Disclaimer
+The models and dashboards in this repository are created for educational, analytical, and portfolio purposes. They should not be considered financial advice or recommendations for investment decisions.
+
+## 👤 Author
+# Khushal Dusane
+This repository represents my work and learning in financial modeling, Excel dashboards, financial analysis, and data visualization.
+
+⭐ If you find this repository useful, feel free to explore the projects and follow the repository for future updates.
