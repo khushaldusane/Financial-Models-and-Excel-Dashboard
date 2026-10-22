@@ -1,4 +1,4 @@
-\# Apex Financial Reporting System - FY 2025
+# Apex Financial Reporting System - FY 2025
 
 
 
@@ -6,7 +6,7 @@ A comprehensive \*\*dynamic financial reporting and business analytics solution\
 
 
 
-\## 📊 Overview
+## 📊 Overview
 
 
 
