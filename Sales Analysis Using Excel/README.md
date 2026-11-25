@@ -85,4 +85,4 @@ Identify the customer segments, regions and sales channels that contribute most 
 
 ## Author
 
-**Khushal Dusane**: Aspiring Data Analyst | SQL · Python · Power BI · Excel
+**Khushal Dusane**: Data Analyst | SQL · Python · Power BI · Excel
