@@ -2,7 +2,6 @@
 
 An Excel-based **financial reporting and variance analysis model** for a simulated company, *Apex Consumer Products Pvt. Ltd.* (offices in Mumbai, Pune and Bengaluru). It converts transaction-level ledger data into a dynamic monthly P&L, a department performance report, automated data-quality checks and an executive KPI dashboard.
 
-> **Note:** The dataset is simulated for portfolio purposes. It is not real company data.
 
 ---
 
