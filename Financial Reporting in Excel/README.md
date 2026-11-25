@@ -1,82 +1,98 @@
-# Apex Financial Reporting System - FY 2025
+# Apex Financial Reporting System: FY 2025
 
-A comprehensive **dynamic financial reporting and business analytics solution** for Apex Consumer Products Pvt. Ltd.
+An Excel-based **financial reporting and variance analysis model** for a simulated company, *Apex Consumer Products Pvt. Ltd.* (offices in Mumbai, Pune and Bengaluru). It converts transaction-level ledger data into a dynamic monthly P&L, a department performance report, automated data-quality checks and an executive KPI dashboard.
 
-## 📊 Overview
+> **Note:** The dataset is simulated for portfolio purposes. It is not real company data.
 
-Excel based P&L automation system converting 430+ transaction logs into real-time monthly financial statements, departmental variance reports, and executive KPI dashboards with automated data quality controls.
+---
 
-**Key Metrics:**
-- **Annual Revenue:** ₹36,114,086 (Net) | ₹36,478,037 (Gross Sales)
-- **Gross Profit:** ₹25,907,758 | **71.7% Gross Margin**
-- **Operating Profit:** ₹18,015,150 | **49.9% Operating Margin**
-- **Geographic Coverage:** Mumbai, Pune, Bengaluru
-- **Departments:** 5 (Sales, Operations, Marketing, Finance, HR)
+## Overview
 
-## 🎯 Features
+| Item | Detail |
+|---|---|
+| Period | January to December 2025 |
+| Transactions | 999 ledger rows |
+| Budget records | 480 (5 departments × 12 months × 8 accounts) |
+| Chart of accounts | Codes 4000 to 6400 mapped to P&L categories |
+| Departments | Sales, Operations, Marketing, Finance, Human Resources |
+| Locations | Mumbai, Pune, Bengaluru |
+| Currency | INR |
 
-✅ **Dynamic P&L Module** – Monthly income statement with Year/Month/Department/Location filters using SUMIFS formulas
-✅ **Departmental Performance Analysis** – Budget vs Actual variance tracking and Gross Margin % by department
-✅ **Executive Dashboard** – KPI scorecards, monthly trends, geographic & departmental contributions
-✅ **Data Quality Framework** – 8 mandatory automated reconciliation controls validating 999+ transactions
-✅ **Chart of Accounts** – Standard COA mapping (Account Codes 4000-6400)
-✅ **Budget Management** – 480 monthly budget records across all revenue & expense accounts
+## Key Metrics (FY 2025)
 
-## 📁 Workbook Structure
+| Metric | Value |
+|---|---|
+| Gross sales revenue | ₹36,478,037 |
+| Net revenue (after returns and discounts) | ₹36,114,086 |
+| Gross profit | ₹25,907,758 (**71.7%** gross margin) |
+| Total operating expenses | ₹7,892,608 |
+| Operating profit (EBIT) | ₹18,015,150 (**49.9%** operating margin) |
+
+## Workbook Structure
 
 | Sheet | Purpose |
-|-------|---------|
-| **Dashboard** | Executive KPIs, monthly trends, regional & departmental performance |
-| **Income_Statement** | Dynamic monthly P&L with multi-criteria filtering |
-| **Department_Performance** | Departmental P&L analysis, variance reports, margin %, budget vs actual |
-| **Data_Quality** | Automated audit control panel – 8 reconciliation checks |
-| **Raw_Data** | 999 transaction logs with formula-driven lookups |
-| **Budget** | 480 budget entries across departments & expense categories |
-| **Accounts** | Chart of Accounts (COA) reference mapping |
+|---|---|
+| **Dashboard** | KPI scorecards, monthly trend table, regional and department contribution, OPEX structure |
+| **Income_Statement** | Dynamic monthly P&L driven by Year / Month / Department / Location inputs (multi-criteria `SUMIFS`), showing Actual vs Budget vs Prior Year with variance and YoY % |
+| **Department_Performance** | Monthly department P&L: revenue, returns, COGS, OPEX, operating profit, gross margin % and budget revenue variance |
+| **Data_Quality** | Audit control panel with 8 automated reconciliation checks |
+| **Raw_Data** | Transaction log with formula-driven Month Start, Account Name and Category lookups |
+| **Budget** | Monthly department budget targets by account |
+| **Accounts** | Chart of Accounts mapping |
+| **Validation_Lists** | Source lists for the drop-down controls |
 
-## 🛠️ Technologies & Tools
+## Features
 
-- **Excel/Spreadsheet:** Advanced formulas (SUMIFS, VLOOKUP, IF statements)
-- **Data Modeling:** Multi-dimensional table structure with 5 dimensions
-- **Reporting:** Dynamic filtering, variance analysis, KPI dashboards
-- **Audit Controls:** Data validation, checksum reconciliation, duplicate detection
+- **Dynamic P&L:** pick a year, month, department and location in the yellow input cells and the whole statement recalculates
+- **Variance analysis:** Actual vs Budget vs Prior Year with favorable/unfavorable flags
+- **Department view:** monthly department P&L with gross margin % and budget revenue variance
+- **Executive dashboard:** monthly trend of gross sales, net revenue, COGS, OPEX and operating margin, plus regional and department contribution
+- **Data-quality controls:** duplicate transaction IDs, unmapped accounts, missing dates, missing departments, negative amounts, unmapped P&L categories, row count and total-value checksum
 
-## 💡 Use Cases
+## Key Insights
 
-- **Monthly Financial Close:** Automated P&L generation for management reporting
-- **Budget vs Actual Analysis:** Variance tracking across departments & locations
-- **Performance Monitoring:** Real-time KPI tracking (margins, profitability by segment)
-- **Data Integrity:** Automated audit controls ensuring 100% GL reconciliation
+**Monthly trend**
+- Sales peaked in **October (₹3.81M)** and were lowest in **August (₹2.06M)**
+- Sales fell about **31% from July to August**, and operating margin dropped to **25.7%** in August (against 61.3% in October)
 
-## 📈 Key Insights (Annual FY 2025)
+**Departments**
 
-| Department | Revenue | Op. Profit | Op. Margin |
-|-----------|---------|-----------|-----------|
-| Sales | ₹12.68M | ₹6.78M | 53.4% |
-| Marketing | ₹8.93M | ₹5.30M | 59.4% |
-| Human Resources | ₹4.24M | ₹2.51M | 59.1% |
-| Operations | ₹7.93M | ₹2.97M | 37.4% |
-| Finance | ₹2.69M | ₹465K | 17.3% |
+| Department | Gross Revenue | Share | Operating Profit | Op. Margin |
+|---|---|---|---|---|
+| Sales | ₹12.68M | 34.8% | ₹6.78M | 53.4% |
+| Marketing | ₹8.93M | 24.5% | ₹5.30M | 59.4% |
+| Operations | ₹7.93M | 21.7% | ₹2.97M | 37.4% |
+| Human Resources | ₹4.24M | 11.6% | ₹2.51M | 59.1% |
+| Finance | ₹2.69M | 7.4% | ₹0.47M | 17.3% |
 
-## 🚀 How to Use
+- Finance has the weakest operating margin (17.3%); Operations is the next lowest (37.4%)
 
-1. **Download** the Apex_Fin_Reporting_2025.xlsx file
-2. **Open in Excel** (Excel 2016+ recommended for full formula support)
-3. **Navigate Dashboard** → View executive summary & KPIs
-4. **Income_Statement** → Select Year, Month, Department, Location filters
-5. **Department_Performance** → Analyze individual department metrics
-6. **Data_Quality** → Verify audit controls (8/8 PASS status)
+**Regions**
+- **Bengaluru** is the largest at ₹13.29M (about 36%), followed by Mumbai (₹11.75M) and Pune (₹11.44M)
+- Return rates are low: Mumbai 0.5%, Pune 1.2%, Bengaluru 1.3%
 
-## 📋 Features & Controls
+**Cost structure**
+- **Salaries & wages** are the biggest OPEX item at ₹4.36M (about 55% of OPEX), then marketing (₹1.38M), logistics (₹0.91M), rent & utilities (₹0.82M) and software & admin (₹0.42M)
 
-- **Yellow Input Cells:** Interactive filters for dynamic report generation
-- **Data Validation Dropdowns:** Department, Location, Month selections
-- **Automated Formulas:** SUMIFS multi-criteria calculations eliminate manual entry
-- **Audit Flags:** Real-time data quality checks (1,324K+ checksum validation)
+## Known Limitations
 
-## 👤 Author
+- The Data_Quality sheet currently **flags duplicate Transaction IDs** (568 of 999 rows); the other 7 controls pass. This is listed as a follow-up item.
+- Budget revenue values are much smaller than actuals, so budget variance percentages are very large. Treat budget variance as illustrative.
+- Revenue is tagged to all departments (including Finance and HR) because the data is simulated.
 
-**Khushal Dusane (KD)**
-Data Analyst | MIS Executive | Financial Reporting Specialist
-📍 Mumbai/Pune, India
-📧 khushaldusane2003@gmail.com
+## How to Use
+
+1. Download `Apex Fin Reporting 2025.xlsx` and open it in Excel
+2. Start on the **Dashboard** for the annual summary
+3. Go to **Income_Statement** and change the yellow cells (Year, Month, Department, Location) to generate a P&L for any slice
+4. Use **Department_Performance** to compare departments for a chosen month
+5. Check **Data_Quality** to review the audit controls
+
+## Tools & Skills
+
+Microsoft Excel: `SUMIFS`, lookup formulas, data validation drop-downs, conditional flags, dashboard design. Financial reporting: P&L structure, chart of accounts, budget vs actual variance, margin analysis.
+
+## Author
+
+**Khushal Dusane (KD)**: Data Analyst | Excel · SQL · Python · Power BI
+Mumbai / Pune, India
